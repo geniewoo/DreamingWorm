@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <dreamingworm.grouptimetable.CustomViews.CustomSwitcherButton
+            android:id="@+id/switcher_MyTable_Btn"
+            android:text="내 시간표"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomSwitcherButton
+            android:id="@+id/switcher_Friend_Btn"
+            android:text="친구"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomSwitcherButton
+            android:id="@+id/switcher_Group_Btn"
+            android:text="그룹"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomSwitcherButton
+            android:id="@+id/switcher_Setting_Btn"
+            android:text="설정"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <dreamingworm.grouptimetable.MyTableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/switcher_MyTable_Layout">
+        </dreamingworm.grouptimetable.MyTableLayout>
+        <dreamingworm.grouptimetable.FriendLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/switcher_Friend_Layout">
+        </dreamingworm.grouptimetable.FriendLayout>
+        <dreamingworm.grouptimetable.SettingLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/switcher_Setting_Layout">
+        </dreamingworm.grouptimetable.SettingLayout>
+        <dreamingworm.grouptimetable.GroupLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/switcher_Group_Layout">
+        </dreamingworm.grouptimetable.GroupLayout>
+    </FrameLayout>
+</LinearLayout>

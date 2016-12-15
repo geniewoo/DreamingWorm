@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <dreamingworm.grouptimetable.CustomViews.CustomTitleView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:text="버그 리프트 / 문의"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/dream" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="박성우"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mandoo992@google.com"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="성균관대학교 컴퓨터 학과 재학중"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal" />
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="잠은 많지만 잠은 싫어"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/worm" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="김영수"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nakireu@gmail.com"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="성균관대학교 컴퓨터 학과 재학중"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal" />
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="꿈틀꿈틀"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <dreamingworm.grouptimetable.CustomViews.CustomEditText2
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/bugReport_content_Edt"
+            android:layout_margin="5dp"
+            android:hint="회원님의 아이디, 내용이 이메일로 전송됩니다."
+            android:gravity="top"
+            android:textSize="18dp"
+            android:maxLines="20"
+            android:background="@null"
+            android:layout_above="@+id/bugReport_Send_Btn"
+            android:layout_alignParentStart="true"
+            android:singleLine="false" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomButtonGreen
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="이메일 전송"
+            android:textSize="18dp"
+            android:id="@+id/bugReport_Send_Btn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

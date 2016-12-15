@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <dreamingworm.grouptimetable.CustomViews.CustomEditText1
+            android:textSize="25dp"
+            android:layout_marginTop="5dp"
+            android:maxLines="1"
+            android:maxLength="8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addmefriend_SearchName_Edt"
+            android:hint="친구 검색"/>
+
+        <ListView
+            android:id="@+id/addmefriend_Table_ListView"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+</LinearLayout>

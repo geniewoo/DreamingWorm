@@ -1,0 +1,2 @@
+CHANGED,C:\Users\sungwoo\AndroidStudioProjects\GroupTimeTable-2016-07-01\GroupTimeTable\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\dreamingworm\grouptimetable\FindIDDialog$SendPost$override.class
+CHANGED,C:\Users\sungwoo\AndroidStudioProjects\GroupTimeTable-2016-07-01\GroupTimeTable\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

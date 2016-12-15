@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <dreamingworm.grouptimetable.CustomViews.CustomEditText1
+        android:id="@+id/addTable_TableName"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:maxLength="10"
+        android:textSize="23dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="468dp"
+        android:id="@+id/timeTable_TTRelative_Layout"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="false"
+            android:id="@+id/timeTable_Days_Layout"
+            android:layout_marginLeft="25dp">
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="41dp"
+                android:layout_height="fill_parent"
+                android:text="일"
+                android:textAlignment="center"
+                android:id="@+id/timeTable_Sun_Txt"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="41dp"
+                android:layout_height="fill_parent"
+                android:text="월"
+                android:textAlignment="center"
+                android:id="@+id/timeTable_Mon_Txt"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="41dp"
+                android:layout_height="fill_parent"
+                android:text="화"
+                android:textAlignment="center"
+                android:id="@+id/timeTable_Tue_Txt"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="41dp"
+                android:layout_height="fill_parent"
+                android:text="수"
+                android:textAlignment="center"
+                android:id="@+id/timeTable_Wed_Txt"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="41dp"
+                android:layout_height="fill_parent"
+                android:text="목"
+                android:textAlignment="center"
+                android:id="@+id/timeTable_Thu_Txt"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="41dp"
+                android:layout_height="fill_parent"
+                android:text="금"
+                android:textAlignment="center"
+                android:id="@+id/timeTable_Fri_Txt"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="41dp"
+                android:layout_height="fill_parent"
+                android:text="토"
+                android:textAlignment="center"
+                android:id="@+id/timeTable_Sat_Txt"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timeTable_Days_Layout"
+            android:layout_alignParentStart="true"
+            android:id="@+id/timeTable_Container_Layout">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="25dp"
+                android:layout_height="448dp"
+                android:layout_below="@+id/timeTable_Days_Layout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/timeTable_Times_Layout">
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="8"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_8_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="9"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_9_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_10_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="11"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_11_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="12"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_12_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="13"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_13_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="14"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_14_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="15"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_15_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="16"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_16_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="17"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_17_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="18"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_18_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="19"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_19_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="20"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_20_Txt" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="25dp"
+                    android:layout_height="32dp"
+                    android:text="21"
+                    android:textAlignment="center"
+                    android:paddingTop="1dp"
+                    android:id="@+id/timeTable_21_Txt" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp">
+
+        <dreamingworm.grouptimetable.CustomViews.CustomButtonOrange
+            android:id="@+id/addTable_Summit"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:textSize="23dp"
+            android:layout_marginLeft="20dp" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomButtonOrange
+            android:id="@+id/addTable_Delete"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="20dp"
+            android:textSize="23dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

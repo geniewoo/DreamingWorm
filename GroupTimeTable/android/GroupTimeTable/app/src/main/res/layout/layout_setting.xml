@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/setting_Profile_View"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <dreamingworm.grouptimetable.CustomViews.CustomButtonOrange
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="사진 바꾸기"
+        android:textSize="15dp"
+        android:id="@+id/setting_GetImage_Btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <dreamingworm.grouptimetable.CustomViews.CustomButtonTransparent
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:text="로그아웃"
+        android:textSize="25dp"
+        android:id="@+id/setting_LogOut_Btn"
+        android:layout_gravity="right" />
+
+    <dreamingworm.grouptimetable.CustomViews.CustomButtonTransparent
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:text="초대 목록"
+        android:textSize="25dp"
+        android:id="@+id/setting_Invited_Btn" />
+
+    <dreamingworm.grouptimetable.CustomViews.CustomButtonTransparent
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:text="나를 추가한 친구 목록"
+        android:textSize="25dp"
+        android:id="@+id/setting_Add_Btn" />
+    <dreamingworm.grouptimetable.CustomViews.CustomButtonTransparent
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:text="버그 리포트 / 문의"
+        android:textSize="25dp"
+        android:id="@+id/setting_BugReport_Btn" />
+</LinearLayout>

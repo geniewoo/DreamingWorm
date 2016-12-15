@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="360dp"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <dreamingworm.grouptimetable.CustomViews.CustomTitleView
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:textSize="50dp"
+                android:text="지금 뭐해?"
+                android:textAlignment="center"
+                android:layout_marginBottom="40dp" />
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp">
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="ID" />
+                <dreamingworm.grouptimetable.CustomViews.CustomEditText1
+                    android:id="@+id/main_Id_Edt"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:maxLength="20"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp">
+                <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="pw" />
+                <dreamingworm.grouptimetable.CustomViews.CustomEditText1
+                    android:id="@+id/main_Password_Edt"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <dreamingworm.grouptimetable.CustomViews.CustomCheckBox1
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="ID저장"
+                    android:id="@+id/main_ID_Chk"
+                    android:checked="false"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="10dp" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomCheckBox1
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="로그인 유지"
+                    android:id="@+id/main_Login_Chk"
+                    android:checked="false"
+                    android:textSize="10dp" />
+
+                <dreamingworm.grouptimetable.CustomViews.CustomButtonOrange
+                    android:id="@+id/main_Login_Btn"
+                    android:text="로그인"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <dreamingworm.grouptimetable.CustomViews.CustomButtonGrey
+                android:id="@+id/main_Register_Btn"
+                android:text="회원가입"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:textSize="15dp" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomButtonGrey
+                android:id="@+id/main_FindID_Btn"
+                android:text="아이디 찾기"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/dreamingworm"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

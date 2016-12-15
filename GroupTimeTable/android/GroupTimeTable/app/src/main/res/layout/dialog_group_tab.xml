@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/group_Tab_LinearLayout"></LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <dreamingworm.grouptimetable.CustomViews.CustomButtonOrange
+            android:textSize="23dp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/group_Tab_Btn1"
+            android:layout_margin="10dp"
+            android:layout_weight="1" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomButtonOrange
+            android:textSize="23dp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/group_Tab_Btn2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

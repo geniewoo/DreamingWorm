@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/invited_RoomName_Txt"
+            android:layout_gravity="center_horizontal"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/invited_HostName_Txt"
+            android:layout_gravity="right"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/invited_Tab1_ImgView" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/invited_Tab2_ImgView" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/invited_Tab3_ImgView" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/invited_Tab4_ImgView" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/invited_Tab5_ImgView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:id="@+id/invited_MyTable1_Txt"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:paddingTop="15dp" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:id="@+id/invited_MyTable2_Txt"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:paddingTop="15dp" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:id="@+id/invited_MyTable3_Txt"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:paddingTop="15dp" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:id="@+id/invited_MyTable4_Txt"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:paddingTop="15dp" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:id="@+id/invited_MyTable5_Txt"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:paddingTop="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <dreamingworm.grouptimetable.CustomViews.CustomButtonGreen
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:textSize="18dp"
+                android:text="확인"
+                android:id="@+id/invited_DialogConfirm_Btn"
+                android:layout_weight="1" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomButtonGreen
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:textSize="18dp"
+                android:text="취소"
+                android:id="@+id/invited_DialogCancel_Btn"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <dreamingworm.grouptimetable.CustomViews.CustomEditText1
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:id="@+id/addfriend_SearchName_Edt"
+                android:hint="새 친구 검색"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/addfriend_SearchName_Btn"
+                android:maxLines="1"
+                android:textSize="25dp"
+                android:inputType="text"
+                android:maxLength="6" />
+
+            <dreamingworm.grouptimetable.CustomViews.CustomButtonOrange
+                android:id="@+id/addfriend_SearchName_Btn"
+                android:text="검색"
+                android:textSize="23dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/addfriend_Table_ListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </ScrollView>
+    </LinearLayout>

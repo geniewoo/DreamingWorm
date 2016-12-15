@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <dreamingworm.grouptimetable.CustomViews.CustomTitleView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="그룹 이름"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:textAlignment="center" />
+
+    <dreamingworm.grouptimetable.CustomViews.CustomEditText1
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/addGroup_Name_Edt"
+        android:layout_gravity="center_horizontal"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:inputType="text" />
+
+    <dreamingworm.grouptimetable.CustomViews.CustomButtonOrange
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:text="친구추가"
+        android:id="@+id/addGroupt_AddFriend_Btn"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/addGroup_GroupImg_LinearLayout"></LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addGroup_Table1_Txt"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addGroup_Table2_Txt"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addGroup_Table3_Txt"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addGroup_Table4_Txt"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomContentTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addGroup_Table5_Txt"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <dreamingworm.grouptimetable.CustomViews.CustomButtonGreen
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="생성"
+            android:id="@+id/addGroup_Create_Btn"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />
+
+        <dreamingworm.grouptimetable.CustomViews.CustomButtonGreen
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="취소"
+            android:id="@+id/addGroup_Cancel_Btn"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
